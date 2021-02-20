@@ -3,6 +3,8 @@ package edu.pingpong.cotxox.appCotxox;
 import java.util.ArrayList;
 import java.util.List;
 
+import edu.pingpong.cotxox.domain.carrera.Carrera;
+
 public class AppCotxox 
 {
     public static void main( String[] args )
