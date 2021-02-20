@@ -8,6 +8,7 @@ import org.junit.Test;
 public class CarreraTest {
 
     private Carrera carrera = null;
+    private double delta = 0.01d;
     
     @Before
     public void setupCarrera() {
@@ -18,8 +19,6 @@ public class CarreraTest {
     @Test
     public void settersAndGettersCarrera() {
 
-        double delta = 0.01;
-
         carrera.setOrigen("Bombay");
         carrera.setDestino("Hawai");
         carrera.setDistancia(15.5);
@@ -28,6 +27,26 @@ public class CarreraTest {
         assertEquals("Bombay", carrera.getOrigen());
         assertEquals("Hawai", carrera.getDestino());
         assertEquals(15.5, carrera.getDistancia(), delta);
+    }
+
+    @Test
+    public void getCosteTotalEsperadoTest() {
+
+        carrera.setDistancia(15);
+        carrera.setTiempoEsperado(5);
+        
+        double costeTotal = 15 * 1.35 + 5 * 0.35;
+
+        assertEquals(costeTotal, carrera.getCosteEsperado(), delta);
+    }
+
+    @Test
+    public void getCosteMinimoTest() {
+        
+        carrera.setDistancia(1);
+        carrera.setTiempoEsperado(2);
+
+        assertEquals(5, carrera.getCosteEsperado(), delta);
     }
 
 }
