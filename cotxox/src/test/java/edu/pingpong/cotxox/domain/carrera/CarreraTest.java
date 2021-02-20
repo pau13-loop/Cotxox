@@ -12,7 +12,6 @@ public class CarreraTest {
     
     @Before
     public void setupCarrera() {
-
         carrera = new Carrera("666333111");
     }
 
