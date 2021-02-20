@@ -54,4 +54,12 @@ public class Conductor {
         this.valoracionMedia = valoraciones.stream().mapToDouble(Byte::intValue).sum() / this.valoraciones.size();
         return valoracionMedia;
     }
+
+    public void setOcupado(boolean ocupado) {
+        this.ocupado = ocupado;
+    }
+
+    public boolean isOcupado() {
+        return this.ocupado;
+    }
 }
