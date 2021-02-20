@@ -37,4 +37,12 @@ public class ConductorTest {
         assertEquals(2, conductor.getNumeroValoraciones());
         assertEquals(4.5, conductor.getValoracion(), delta);
     }
+
+    @Test
+    public void ocupadoTest() {
+
+        conductor.setOcupado(true);
+
+        assertEquals(true, conductor.isOcupado());
+    }
 }
