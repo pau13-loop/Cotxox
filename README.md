@@ -1,6 +1,6 @@
 # Cotxox Java Kata
 
-> In this repository you'll find **Cotxox Kata**. This kata is for introduce yourself into the beginnings of Java, the SOLID principles and how to develop a good OOP programming applying the TDD correctly.
+> In this repository you'll find **Cotxox Kata**. This kata is to introduce yourself into the beginnings of Java, the SOLID principles and how to develop a good OOP programming applying the TDD correctly.
 
 ## Table of Contents
 
