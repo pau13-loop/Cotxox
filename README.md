@@ -10,6 +10,7 @@ En este repositorio voy a incluir el Examen de Java de años anteriores aplicand
 1. [Motivation](#motivation)
 1. [Used Technologies](#used-technologies)
 1. [Reflections](#reflections)
+1. [UML Diagram](#uml-diagram)
 1. [License](#license)
 
 ---
@@ -40,6 +41,14 @@ One of mybiggest motivations for this kata is the fact of be one of the first Ka
 It has been a really enjoyable kata, an easy level about the program to develop but what matters is not the result, in this kata what matters is the process you follow until you finish the kata, trying to apply correctly all the methodologies we have learned until now and step by step implemment them. I really enjoyed being meticulous in my process. I tried to apply correctly the SOLID Principles and i kept myself all time doing TDD programming to keep all my methods under control and try to avoid unnecesary mistakes. As well has been my first time trying to avoid block codes of nested if-elses trying to use streams, really usefull and one time you start to understand hoe they work will save you lot of time and unnecesary blocks of code that coul be avioded.
 
 Completely recommendable Kata to anyone that is interested into the Java programming language, the OOP, SOLID Principles and TDD methodologies.
+
+---
+
+**[⬆ back to top](#table-of-contents)**
+
+## UML Diagram
+
+![UML Diagram](./UMLDiagram.png "UML")
 
 ---
 
