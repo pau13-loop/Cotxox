@@ -47,6 +47,8 @@ Completely recommendable Kata to anyone that is interested into the Java program
 
 ![UML Diagram](./UMLDiagram.png "UML")
 
+> This UML Diagram has been provided by https://github.com/dfleta
+
 ---
 
 **[⬆ back to top](#table-of-contents)**
